@@ -58,6 +58,7 @@ h1{
 }
 
 #section3{
+  float: left;
   height: 1100px;
   background-color: pink;
   display: block;
@@ -84,7 +85,35 @@ address{
   line-height: 50px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1420px) {
+  .bg{
+    margin-right: -30px;
+  }
+  nav{
+    height: auto;
+  }
+  nav li{
+    padding: 0 20px;
+    line-height: normal;
+  }
+
+  #section2{
+    height: 200px;
+  }
+
+
+  #section3{
+  padding: 100px 0 100px 100px;
+  height: 300px;
+  line-height: 300px;
+  }
+  .box .inner img{
+    width: 200px;
+
+  }
+}
+/*
+@media only screen and (max-width: 383px) {
   .bg{
     margin-right: -30px;
   }
@@ -96,45 +125,16 @@ address{
     padding: 0 20px;
     line-height: normal;
   }
-  #section2{
-    height: 500px;
-  }
 
+  .dot{
+    padding-top: -500px;
+  }
 
   #section3{
   padding: 100px 0 100px 100px;
-  height: 500px;
   }
   .box .inner img{
-    width: 200px;
+    width: 300px;
 
   }
-}
-
-@media only screen and (max-width: 1200px) {
-  #section2{
-    height: 500px;
-  }
-
-  #section3{
-  padding: 50px 0 20px 20px;
-  height: 500px;
-  }
-
-  .box .inner img{
-    width: 150px;
-
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #section2{
-    height: 500px;
-  }
-
-
-  #section3{
-    height: 300px;
-  }
-
-}
+} */
