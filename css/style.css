@@ -38,7 +38,7 @@ nav li{
 }
 
 #section2{
-  background-color: white;
+  border-bottom: plum;
 }
 
 .dot{
@@ -51,10 +51,24 @@ h1{
   color: purple;
 }
 
+#section2 .hh{
+  font-size: 12px;
+}
+
 #section3{
-  background-color: pink;
+  background: linear-gradient( to bottom, plum, pink);
   display: block;
   padding: 100px 0 200px 200px;
+  border-bottom: 3px dashed white;
+  border-width: thin;
+}
+
+#section3 h2{
+  position: absolute;
+  margin-top: -30px;
+  float: left;
+  color: white;
+  border: 1px solid white;
 }
 
 .box{
@@ -63,14 +77,31 @@ h1{
   float: left;
   padding: 100px;
 
-
 }
-
 
 .box .inner img{
   width: 300px;
+}
+
+#section4{
+  background: linear-gradient( to bottom, pink, plum);
+  display: block;
+  padding: 0;
+  height: 400px;
+  padding-left: 200px;
+  padding-top: 150px;
+}
+
+
+#section4 .box{
+  float: left;
+  padding: 50px;
 
 }
+#section4 .box .inner img{
+  width: 150px;
+}
+
 
 address{
   font-size: 12px;
@@ -84,14 +115,19 @@ address{
   padding: 100px 0 100px 100px;
   height: 900px;
   }
-
   .box{
     padding: 80px;
   }
-
   .box .inner img{
     width: 250px;
-
+  }
+  #section4{
+    padding-left: 100px;
+    padding-top: 75px;
+  }
+  #section4 .box{
+    float: left;
+    padding: 30px;
   }
 }
 
@@ -99,13 +135,22 @@ address{
   #section3{
   padding: 50px 0 50px 50px;
   }
-
+  #section3 h2{
+    margin-top: -10px;
+  }
   .box{
     padding: 80px;
   }
   .box .inner img{
     width: 200px;
-
+  }
+  #section4{
+    padding-left: 70px;
+    padding-top: 40px;
+  }
+  #section4 .box{
+    float: left;
+    padding: 10px;
   }
 }
 
@@ -133,6 +178,16 @@ address{
   }
   .box .inner img{
     width: 150px;
-
   }
+  #section4{
+    padding-left: 50px;
+    padding-top: -50px;
+  }
+  #section4 .box{
+    float: left;
+    padding: 10px;
+  }
+  #section4 .box .inner img{
+      width: 120px;
+    }
 }
