@@ -4,7 +4,6 @@ ul{ list-style: none; } /*리스트앞에꺼 안보임*/
 
 section{
   height: 1080px;
-  width: 1820px;
   display: block;
 }
 
@@ -53,17 +52,17 @@ h1{
 }
 
 #section3{
-  height: 1100px;
   background-color: pink;
   display: block;
   padding: 100px 0 200px 200px;
 }
 
 .box{
-  flex-basis: 300px; /*이거머임2*/
+  flex-basis: 400px; /*이거머임2*/
   flex-grow: 0;
   float: left;
-  padding:  100px;
+  padding: 100px;
+
 
 }
 
@@ -79,16 +78,15 @@ address{
   line-height: 50px;
 }
 
-@media only screen and (max-width: 1500px) {
-  nav{
-    height: auto;
-  }
-  nav li{
-    padding: 0 20px;
-    line-height: normal;
-  }
+@media only screen and (max-width: 1720px) {
+
   #section3{
   padding: 100px 0 100px 100px;
+  height: 900px;
+  }
+
+  .box{
+    padding: 80px;
   }
 
   .box .inner img{
@@ -97,13 +95,44 @@ address{
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   #section3{
   padding: 50px 0 50px 50px;
   }
 
+  .box{
+    padding: 80px;
+  }
   .box .inner img{
-    width: 100px;
+    width: 200px;
+
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #section3{
+  padding: 50px 0 50px 50px;
+  height: 700px;
+  }
+  .box{
+    padding: 80px;
+  }
+  .box .inner img{
+    width: 150px;
+
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #section3{
+  padding: 50px 0 50px 50px;
+  height: 700px;
+  }
+  .box{
+    padding: 60px;
+  }
+  .box .inner img{
+    width: 150px;
 
   }
 }
